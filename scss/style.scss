@@ -1,4 +1,4 @@
-$primaryColor: #21933B;
+$primaryColor: #E8000D;
 $blackColor: rgb(15, 15, 15);
 $whiteColor: white;
 
@@ -10,31 +10,15 @@ $whiteColor: white;
 
 body {
     font-family: 'poppins', sans-serif;
+    background-color: $blackColor;
 }
-
-nav {
-    width: 100%;
-    background-color: $primaryColor;
-    color: $whiteColor; 
-}
-
-.nav-contents{
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1em;
-}
-
-
 .box {
-    width: 70px;
-    height: 70px;
-    margin: .25em;
+    width: 100px;
+    height: 100px;
+    margin: .5em;
     background-color:#fff;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50%;
+    
 }
 
 section {
@@ -47,13 +31,14 @@ section {
 }
 
 .container {
-    width: 50%;
+    width: 50vw;
     min-height: 50vh;
     background-color: $primaryColor;
     margin-bottom: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
     h2 {
         height: 70px;
         padding: 1em;
@@ -64,11 +49,11 @@ section {
         span {
             font-weight: 700;
             font-size: 1.25rem;
-
         }
     }
 }
 .btn {
+    cursor: pointer;
     outline: none;
     border: none;
     color: $whiteColor;
@@ -76,10 +61,6 @@ section {
     padding: 1em;
     font-size: .85rem;
     font-weight: 700;
-}
-
-.btn:hover {
-    background-color: #363636;
 }
 
 
