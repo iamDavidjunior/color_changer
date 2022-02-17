@@ -1,56 +1,39 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   background-color: #0f0f0f;
 }
 
 .box {
   width: 100px;
   height: 100px;
-  margin: .5em;
+  margin: 0.5em;
   background-color: #fff;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 section {
   width: 100%;
   min-height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   width: 50vw;
   min-height: 50vh;
-  background-color: #E8000D;
+  background-color: #e8000d;
   margin-bottom: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-radius: 5px;
 }
 
@@ -60,7 +43,7 @@ section {
   color: white;
   font-size: 1rem;
   font-weight: 400;
-  margin: .25em;
+  margin: 0.25em;
 }
 
 .container h2 span {
@@ -73,9 +56,8 @@ section {
   outline: none;
   border: none;
   color: white;
-  background-color: #E8000D;
+  background-color: #e8000d;
   padding: 1em;
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-weight: 700;
 }
-/*# sourceMappingURL=style.css.map */
